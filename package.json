@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-website-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Jordan Langton",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "hogan": "^1.0.2",
+    "knex": "^0.14.6",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.5",
+    "pug": "^2.0.3"
+  }
+}
